@@ -1,0 +1,72 @@
+/* Basic reset & layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #A0E3F3 0%, #C2F0E4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  /* Wave/Ring Animation Area */
+  .wave-animation {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .wave-animation img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Prompt Text */
+  .prompt-text {
+    font-size: 24px;
+    color: #222;
+    margin-top: 20px;
+  }
+  
+  /* Progress Bar Styling */
+  .progress-bar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  
+  .segment {
+    flex: 1;
+    height: 10px;
+    margin: 0 4px;
+    background: #ccc;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .segment.active {
+    background: #3db6d1;
+  }
+  
+  /* State Buttons (For Testing) */
+  .state-buttons {
+    margin-top: 20px;
+  }
+  
+  .state-buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background: #3db6d1;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
